@@ -2,6 +2,82 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
+    title: 'HOME',
+    group: true,
+  },
+  {
+    title: 'Dashboard',
+    icon: 'shopping-cart-outline',
+    link: '/pages/dashboard',
+    home: true,
+    children: [
+      {
+        title: 'TinyMCE',
+        link: '/pages/editors/tinymce',
+      },
+      {
+        title: 'CKEditor',
+        link: '/pages/editors/ckeditor',
+      },
+    ],
+  },
+
+  {
+    title: 'REGIONS',
+    group: true,
+  },
+
+  {
+    title: 'Zones',
+    icon: 'shopping-cart-outline',
+    link: '/pages/dashboard',
+    home: true,
+    children: [
+      {
+        title: 'Zones',
+        link: '/pages/editors/tinymce',
+      },
+      {
+        title: 'Websites',
+        link: '/pages/editors/ckeditor',
+      },
+    ],
+  },
+
+  {
+    title: 'Site Feeds',
+    icon: 'shopping-cart-outline',
+    link: '/pages/dashboard',
+    home: true,
+    children: [
+      {
+        title: 'Zone Sites',
+        link: '/pages/editors/tinymce',
+      },
+      {
+        title: 'Site Feeds',
+        link: '/pages/editors/ckeditor',
+      },
+    ],
+  },
+
+
+  {
+    title: 'ADVERTS',
+    group: true,
+  },
+
+  {
+    title: 'USERS',
+    group: true,
+  },
+
+  {
+    title: 'SETTINGS',
+    group: true,
+  },
+
+  {
     title: 'E-commerce',
     icon: 'shopping-cart-outline',
     link: '/pages/dashboard',
